@@ -40,4 +40,15 @@ body {
   position: absolute;
   margin-top: 2rem;
 }
+
+.wrapper-search-type--container {
+  display: -ms-grid;
+  display: grid;
+}
+
+.search-type--container {
+  height: 20rem;
+  width: 20rem;
+  background-color: #565980;
+}
 /*# sourceMappingURL=main.css.map */
