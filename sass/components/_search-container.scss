@@ -1,9 +1,22 @@
 .wrapper-search-type--container {
+  width: 70%;
+  height: 70%;
+  margin-top: 10rem;
   display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
 }
 
 .search-type--container {
+  display: block;
   height: 20rem;
-  width: 20rem;
-  background-color: rgb(86, 89, 128);
+  width: 30rem;
+  background-color: $button;
+  border-radius: 4rem;
+  border: none;
+  &:hover {
+    background-color: $selectedButton;
+  }
 }

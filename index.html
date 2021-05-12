@@ -5,22 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cardBase</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="sass/main.css" />
-    <script defer src="script.js"></script>
+
+    <script defer src="scripts/script.js"></script>
   </head>
   <body>
     <div class="main-wrapper">
       <div class="main-container">
+        <div class="circle">
+          <img src="images/home-logo.png" alt="home-logo" />
+        </div>
         <div class="search--div">
-          <input type="text" value="Type name..." />
+          <input class="search--div__text" type="text" value="Type name..." />
         </div>
         <div class="wrapper-search-type--container">
-          <div class="search-type--container">Name search</div>
-          <div class="search-type--container">Group search</div>
-          <div class="search-type--container">Year search</div>
-          <div class="search-type--container">Country search</div>
+          <button class="search-type--container name">Name search</button>
+          <button class="search-type--container group">Group search</button>
+          <button class="search-type--container year">Year search</button>
+          <button class="search-type--container country">Country search</button>
         </div>
       </div>
+      <div class="last-update">last update on 26.03.2021</div>
     </div>
   </body>
 </html>

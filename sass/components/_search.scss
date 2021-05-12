@@ -2,3 +2,13 @@
   position: absolute;
   margin-top: 2rem;
 }
+.search--div__text {
+  margin-top: 1rem;
+  position: relative;
+  display: block;
+  width: 72rem;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem;
+  background-color: $button;
+}
