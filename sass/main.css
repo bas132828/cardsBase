@@ -101,4 +101,32 @@ body {
 .search-type--container:hover {
   background-color: rgba(24, 188, 149, 0.33);
 }
+
+.circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  left: -8rem;
+  top: 3rem;
+  background-color: #c4c4c4;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.circle img {
+  height: 3.7rem;
+  width: 3.5rem;
+}
+
+.circle:hover {
+  background-color: rgba(24, 188, 149, 0.33);
+}
 /*# sourceMappingURL=main.css.map */

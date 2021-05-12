@@ -1,5 +1,19 @@
-.circle{
-    position:absolute;
-    height:10rem;
-    width:auto;
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -8rem;
+  top: 3rem;
+  background-color: $button;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  img {
+    height: 3.7rem;
+    width: 3.5rem;
+  }
+  &:hover {
+    background-color: $selectedButton;
+  }
 }
