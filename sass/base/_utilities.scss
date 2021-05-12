@@ -1,0 +1,15 @@
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  background-color: $container-color;
+  width: 70vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+}
