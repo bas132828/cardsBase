@@ -1,0 +1,15 @@
+.result-card {
+  margin: 0.2rem;
+  width: 40rem;
+  height: 14rem;
+  background-color: $button;
+  grid-column: span 2;
+  border-radius: 5rem;
+  img {
+    height: 5rem;
+    border-radius: 50%;
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+  }
+}

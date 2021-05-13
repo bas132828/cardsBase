@@ -61,6 +61,23 @@ body {
   background-color: rgba(24, 188, 149, 0.33);
 }
 
+.result-card {
+  margin: 0.2rem;
+  width: 40rem;
+  height: 14rem;
+  background-color: #c4c4c4;
+  grid-column: span 2;
+  border-radius: 5rem;
+}
+
+.result-card img {
+  height: 5rem;
+  border-radius: 50%;
+  position: relative;
+  left: 2rem;
+  top: 2rem;
+}
+
 .search--div {
   position: absolute;
   margin-top: 2rem;
@@ -91,8 +108,6 @@ body {
   justify-items: center;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
 }
 
 .search-type--container {
