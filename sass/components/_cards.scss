@@ -1,15 +1,30 @@
 .result-card {
+  display: none;
   margin: 0.2rem;
   width: 40rem;
   height: 14rem;
   background-color: $button;
   grid-column: span 2;
   border-radius: 5rem;
+  grid-template-columns: 12rem 1fr 1fr;
+
   img {
-    height: 5rem;
+    height: 8rem;
     border-radius: 50%;
     position: relative;
     left: 2rem;
     top: 2rem;
+  }
+  .status {
+    justify-self: end;
+    margin-right: 3rem;
+    margin-top: 2rem;
+  }
+  .name {
+    margin-top: 2rem;
+  }
+  .faculty {
+    margin-left: 12rem;
+    grid-column: span 2;
   }
 }

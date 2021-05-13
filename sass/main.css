@@ -62,20 +62,39 @@ body {
 }
 
 .result-card {
+  display: none;
   margin: 0.2rem;
   width: 40rem;
   height: 14rem;
   background-color: #c4c4c4;
   grid-column: span 2;
   border-radius: 5rem;
+  -ms-grid-columns: 12rem 1fr 1fr;
+      grid-template-columns: 12rem 1fr 1fr;
 }
 
 .result-card img {
-  height: 5rem;
+  height: 8rem;
   border-radius: 50%;
   position: relative;
   left: 2rem;
   top: 2rem;
+}
+
+.result-card .status {
+  -ms-grid-column-align: end;
+      justify-self: end;
+  margin-right: 3rem;
+  margin-top: 2rem;
+}
+
+.result-card .name {
+  margin-top: 2rem;
+}
+
+.result-card .faculty {
+  margin-left: 12rem;
+  grid-column: span 2;
 }
 
 .search--div {
@@ -111,7 +130,7 @@ body {
 }
 
 .search-type--container {
-  display: none;
+  display: block;
   height: 20rem;
   width: 30rem;
   background-color: #c4c4c4;
