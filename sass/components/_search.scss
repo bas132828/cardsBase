@@ -1,12 +1,14 @@
 .search--div {
   position: absolute;
   margin-top: 2rem;
+  left: 20%;
 }
 .search--div__text {
   margin-top: 1rem;
-  position: relative;
+  position: absolute;
+  width: 40vw;
+  height: 4rem;
   display: block;
-  width: 72rem;
   border: none;
   border-radius: 2rem;
   padding: 1rem;
